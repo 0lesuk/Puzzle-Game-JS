@@ -1,0 +1,29 @@
+#board-easy {
+    width: 1026px;
+    height: 515px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#board-easy img {
+    width: 340px;
+    height: 170px;
+    border: 0.5px solid black;
+}
+
+#pieces-easy {
+    width: 1026px;
+    height: 513px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#pieces-easy img {
+    width: 340px;
+    height: 170px;
+    border: 0.5px solid black;
+}
