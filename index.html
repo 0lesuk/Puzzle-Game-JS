@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>Puzzles</title>
 </head>
 <body>
-    <div id="board-easy"></div>
+    <div id="board"></div>
     <br>
-    <div id="pieces-easy"></div>
+    <div class="difficulty">
+        <h2 class="difficulty__title">Choose the diddiculty:</h2>
+        <select name="" id="difficulty__select">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    <div class="picture">
+        <h2 class="picture__title">Choose the picture:</h2>
+        <div class="gallery" >
+            <img src="/images/simpsons.jpg" alt="">
+            <img src="/images/cat.jpg" alt="">
+        </div>
+        <button id="start">Start</button>
+    </div>
+    <div class="button-reload">
+        <button id="hint">Get a hint</button>
+    </div>
+    
+    
+   
     
     <script src="js/script.js"></script>
 </body>
